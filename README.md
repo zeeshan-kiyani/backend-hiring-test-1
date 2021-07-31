@@ -1,4 +1,4 @@
-# TuringTech - Backend technical test
+# TuringTech - Backend technical test (Intermediate)
 
 This test is a part of our hiring process for [backend positions](https://www.turingtechnologies.org/careers). It should take you between 2 and 4 hours depending on your experience.
 Hope you will have as much fun as we did coding this test!
