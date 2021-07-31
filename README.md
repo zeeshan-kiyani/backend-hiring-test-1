@@ -33,8 +33,10 @@ Please keep the following points in mind:
 - Make your code as clear as possible, it should be understandable at a first glance (comments are more than welcome);
 - Do not add tests in your submission, except if you have extra time.
 
-#### Note
-We recomment using NodeJS with typecript for this test. However, feel free to use whatever backend system you want :)
+### Bonus
+
+- Use typescript
+- Use NestJS or any other framework like loopback
 
 
 ### Use case
