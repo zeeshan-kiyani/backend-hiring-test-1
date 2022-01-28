@@ -6,7 +6,7 @@ Hope you will have as much fun as we did coding this test!
 
 ## Summary
 
-The purpose of the test is to reproduce one Aircall feature: __call forwarding__.
+The purpose of the test is to reproduce one small feature: __call forwarding__.
 
 Here is the story:
 
@@ -64,10 +64,6 @@ Here are some steps to help you start:
 
 - [ ] Forward incoming calls according to the previous strategies.
 
-## Bonus
-
-- Use typescript
-- Use NestJS or any other framework like loopback
 
 ## Code Submit
 Please organize, design, test and document your code as if it were going into production. Fork this repository and send us a pull request. We will review it and get back to you in order to talk about your code! 
