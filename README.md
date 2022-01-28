@@ -26,7 +26,7 @@ Please keep the following points in mind:
 
 - The focus of this test is the interaction between your backend server and Twilio - only inbound calls should be handled;
 - In order to test the interaction between Twilio and your local environment, you can use tunnels like [ngrok.com](https://ngrok.com);
-- Register a test account on [Twilio](https://twilio.com) - contact us if you need help in order to setup one or need extra credits;
+- Register a test account on [Twilio](https://twilio.com) - you'll be able to setup a new account and test phone number for free;
 - You can add all the models you need specially for Call object;
 - Your project must be available online. A simple Heroku Dyno should do the trick;
 - Make your code as clear as possible, it should be understandable at a first glance (comments are more than welcome);
