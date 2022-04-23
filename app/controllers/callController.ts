@@ -9,7 +9,7 @@ exports.makeCall = (req : any, res: any) => {
     if(makeChoice === 1){
         res.send(callToPersonalPhone())
     }
-    else {
+    else if( makeChoice === 0){
         res.type('text/xml');
         res.send(recordCallPhone().toString());
     }
@@ -47,7 +47,7 @@ const callToPersonalPhone = () => {
                 console.log(err);
             }
             else {
-                console.log(call)
+                console.log(call    )
                 return call;
             }
         });
