@@ -1,0 +1,5 @@
+
+#git ignore files to not commit in repo
+/node_modules
+/package-lock.json
+/build
