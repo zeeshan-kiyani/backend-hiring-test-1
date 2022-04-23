@@ -1,7 +1,7 @@
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
-const accountSid = "AC97ccac09d99affbe9f13cc8bfe485fb8";
-const authToken = "89f5704caf8a35676cafb95e8449f91d";
+const accountSid = process.env.ACCOUNTSID;
+const authToken = process.env.AUTHTOKEN;
 const client = require('twilio')(accountSid, authToken);
 
 exports.makeCall = (req : any, res: any) => {
@@ -47,6 +47,7 @@ const callToPersonalPhone = () => {
                 console.log(err);
             }
             else {
+                console.log(call)
                 return call;
             }
         });
